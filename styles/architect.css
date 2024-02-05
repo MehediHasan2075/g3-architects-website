@@ -56,11 +56,12 @@ color: rgb(66, 66, 66);}
 }
 
 .banner-description{
+  
 
   color: #727272;
 }
 
-.banner-img
+.banner img
 
 { margin:0 auto;
   width: 100%}
@@ -74,4 +75,8 @@ color: rgb(66, 66, 66);}
   color: #FFF;
   cursor: pointer;
   border: 0;
+}
+
+.banner{
+  border:none ;
 }
