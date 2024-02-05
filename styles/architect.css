@@ -62,8 +62,7 @@ color: rgb(66, 66, 66);}
 }
 
 .banner img
-
-{ margin:0 auto;
+{ margin-top: 20px;
   width: 100%}
 
 .btn-primary{
@@ -79,4 +78,23 @@ color: rgb(66, 66, 66);}
 
 .banner{
   border:none ;
+}
+
+
+/* responsive media quary */
+/* mobile diveces */
+
+@media screen and ( max-width: 576px){
+
+header{padding: 20px ;}
+nav{ flex-direction: column;}
+}
+
+/* tablet drvice */
+
+@media screen and (min-width:576px) and (max-width:960px) {
+  header{ padding: 50px ;}
+  nav{ flex-direction: column;
+   }
+  
 }
